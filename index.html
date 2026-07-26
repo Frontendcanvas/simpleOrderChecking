@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cake Promise with SweetAlert</title>
+
+    <!-- 1. Include SweetAlert2 Library here -->
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.all.min.js
+"></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .success-btn {
+        background-color: greenyellow;
+        color: black;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+      }
+      .order-card {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+      }
+      .user-input {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #eee;
+      }
+      .user-input:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 2. Your HTML Elements -->
+    <label for="statusInput"> Cake order status </label>
+    <input
+      type="text"
+      name="status"
+      class="user-input"
+      placeholder="Type order ID"
+      id="statusInput"
+    />
+    <button class="success-btn" id="orderBtn">Click</button>
+    <!-- 3. Your JavaScript Logic -->
+    <script src="./app.js"></script>
+  </body>
+</html>
