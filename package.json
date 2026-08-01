@@ -1,0 +1,27 @@
+{
+  "name": "simpleorderchecking",
+  "version": "1.0.0",
+  "description": "with vanilla javascript I just created a order status checking",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontendcanvas/simpleOrderChecking.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "sangita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frontendcanvas/simpleOrderChecking/issues"
+  },
+  "homepage": "https://github.com/Frontendcanvas/simpleOrderChecking#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
